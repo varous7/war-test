@@ -1,5 +1,5 @@
 FROM tomcat:8.0
-EXPOSE 9999
+EXPOSE 9090
 
 ARG WAR_FILE=target/*.war
 
